@@ -213,3 +213,19 @@ input:invalid {
 input:valid{
     border: 1px solid green;
 }
+
+@media (max-width: 800px){
+    .page {
+        max-width: 400px;
+    }
+    .col-3 {
+        display: block;
+    }
+    .col-3 > div {
+        margin-bottom: 10px;
+    }
+    body::before {
+        padding: 100px;
+    }
+
+}
